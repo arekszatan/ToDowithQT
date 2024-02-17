@@ -74,7 +74,7 @@ def start_application():  # Start Application with qasync
         loop.run_forever()
 
 
-class ToDoItemsWidgets(QWidget, QObject):
+class ToDoItemsWidgets(QWidget):
 
     def __init__(self, id_int=0, new_text="", is_checked=0, parent=None):
         super(ToDoItemsWidgets, self).__init__(parent)
